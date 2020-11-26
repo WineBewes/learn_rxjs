@@ -1,10 +1,7 @@
-console.log('Hello World from your main file!');
+// import * as example from './creation-operators/01_example';
+// import * as example from './creation-operators/02_example';
+// import * as example from './creation-operators/03_example';
+// import * as example from './creation-operators/04_example';
+import * as example from './creation-operators/05_example';
 
-class Test {
-  sayhello() {
-    console.log('hello from test');
-  }
-}
-
-const test = new Test();
-test.sayhello();
+example.show();
