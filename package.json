@@ -1,0 +1,38 @@
+{
+  "name": "rxjs-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live-server": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WineBewes/rxjs_basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WineBewes/rxjs_basics/issues"
+  },
+  "homepage": "https://github.com/WineBewes/rxjs_basics#readme",
+  "dependencies": {
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@webpack-cli/init": "^1.0.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^5.0.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.0.3",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.1.2",
+    "webpack": "^5.7.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
