@@ -13,7 +13,8 @@
 // import * as example from './pipeable-operators/04_miscellaneous/02_catchError';
 // import * as example from './pipeable-operators/03_combination/01_startWith';
 // import * as example from './pipeable-operators/03_combination/02_concat';
-import * as example from './pipeable-operators/03_combination/03_merge';
+// import * as example from './pipeable-operators/03_combination/03_merge';
+import * as example from './pipeable-operators/03_combination/05_forkJoin';
 
 example.show();
 
