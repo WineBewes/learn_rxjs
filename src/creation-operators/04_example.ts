@@ -8,7 +8,7 @@ export const show = () => {
     next: (value: any) => console.log('next', value),
     error: (err: any) => console.log('error', err),
     complete: () => console.log('completed')
-  }
+  };
 
   // of = array wordt doorgegeven als array ('from' : als afzonderlijke elementen)
   const source$ = of([1], 2, 3, 4, 5)

@@ -8,7 +8,7 @@ export const show = () => {
     next: (value: any) => console.log('next', value),
     error: (err: any) => console.log('error', err),
     complete: () => console.log('completed')
-  }
+  };
 
   const source$ = fromEvent(document, 'keyup');
 
