@@ -4,8 +4,9 @@
   "description": "",
   "scripts": {
     "live-server": "live-server",
-    "test": "jest",
-    "webpack": "webpack"
+    "test": "jest -o",
+    "webpack": "webpack",
+    "test-all": "jest"
   },
   "repository": {
     "type": "git",
