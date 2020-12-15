@@ -43,7 +43,7 @@ describe('tips and tricks', () => {
 
       const subscription = interval(500).
         pipe(
-          finalize(() => message = 'done') // works with unsubscription & error
+          finalize(() => message = 'done') // works with unsubscription & error ** & completion ! **
         ).subscribe({
           next: () => message = 'busy',
         }
